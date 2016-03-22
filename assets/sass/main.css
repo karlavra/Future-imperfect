@@ -1,0 +1,112 @@
+header .navbar-default {
+  background-color: white;
+  border: 1px solid #E4E2E2;
+  border-radius: 0;
+  margin: 0; }
+  header .navbar-default .navbar-brand {
+    border-right: 1px solid #E4E2E2;
+    font-size: 0.8em;
+    letter-spacing: 3px;
+    font-weight: bold; }
+  header .navbar-default .lupa {
+    border-left: 1px solid #E4E2E2;
+    position: absolute;
+    right: 30px;
+    font-size: 20px;
+    color: gray;
+    top: 10px; }
+    header .navbar-default .lupa i {
+      margin-left: 20px; }
+  header .navbar-default .list:after {
+    content: "|";
+    padding-left: 20px; }
+
+.banner {
+  background-color: #F4F4F4;
+  text-align: center; }
+  .banner p, .banner a {
+    color: darkgray; }
+  .banner .hexa0 {
+    overflow: hidden;
+    transform: rotate(120deg);
+    height: 120px;
+    width: 70px;
+    visibility: hidden;
+    position: relative;
+    left: 46%; }
+  .banner .hexa2, .banner .hexa1 {
+    height: 100%;
+    width: 100%; }
+  .banner .hexa1 {
+    overflow: hidden;
+    transform: rotate(-60deg); }
+  .banner .hexa2 {
+    visibility: visible;
+    transform: rotate(-60deg);
+    background-image: url("../images/logo.jpg");
+    background-position: center; }
+
+.centro {
+  background-color: #FFFFFF;
+  border: 1px solid #E4E2E2; }
+  .centro .row:first-child {
+    border-bottom: 1px solid #E4E2E2; }
+    .centro .row:first-child p {
+      color: darkgray; }
+    .centro .row:first-child .col-md-9 {
+      text-align: left;
+      padding: 4%; }
+    .centro .row:first-child .col-md-3 {
+      border-left: 1px solid #E4E2E2;
+      text-align: right;
+      padding: 5%; }
+      .centro .row:first-child .col-md-3 p {
+        display: inline-block;
+        text-decoration: underline; }
+      .centro .row:first-child .col-md-3 .img {
+        display: inline-block;
+        width: 40px;
+        margin: 0 0 0 15px; }
+        .centro .row:first-child .col-md-3 .img img {
+          width: 100%;
+          border-radius: 100%; }
+  .centro .row:nth-child(2) {
+    padding: 5%; }
+    .centro .row:nth-child(2) img {
+      width: 100%; }
+  .centro .row:nth-child(3), .centro .row:nth-child(4) {
+    text-align: left;
+    padding: 0 5% 2%; }
+    .centro .row:nth-child(3) p, .centro .row:nth-child(4) p {
+      line-height: 1.7em;
+      font-size: 1.1em; }
+
+.likes {
+  margin-top: 2%; }
+  .likes a {
+    color: black;
+    margin: 0 10px; }
+    .likes a i:before {
+      margin-right: 10px; }
+
+.btn {
+  border-color: gray;
+  color: gray;
+  border-radius: 0;
+  width: 200px;
+  margin: 5% 1%;
+  font-weight: 700;
+  height: 50px;
+  padding-top: 10px; }
+
+.pages .btn {
+  border-color: gray;
+  color: gray;
+  border-radius: 0;
+  width: 200px;
+  margin: 5% 1%;
+  font-weight: 700;
+  padding-top: 15px;
+  background-color: #F4F4F4; }
+
+/*# sourceMappingURL=main.css.map */
